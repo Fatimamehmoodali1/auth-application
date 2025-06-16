@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #333;
+}
+
+input {
+  background-color: #fff5f9;
+  border: 1px solid #e0b3cc;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button {
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
